@@ -3,6 +3,8 @@ page 50004 "Uni Module Card"
     Caption = 'Uni Module Card';
     PageType = Card;
     SourceTable = "Uni Module";
+    ApplicationArea = All;
+    UsageCategory = Administration;
 
     layout
     {
