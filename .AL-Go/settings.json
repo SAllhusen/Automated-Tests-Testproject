@@ -1,7 +1,14 @@
 {
-    "country":  "us",
-    "appFolders":  [
+    "country": "us",
+    "appFolders": [],
+    "testFolders": [],
+    "additionalCountries": [
+        "de"
     ],
-    "testFolders":  [
-    ]
+    "enableCodeCop": true,
+    "enableUICop": true,
+    "enablePerTenantExtensionCop": true,
+    "installTestRunner": true,
+    "installTestFramework": true,
+    "installTestLibraries": true
 }
