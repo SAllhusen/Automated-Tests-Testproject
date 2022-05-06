@@ -1,4 +1,4 @@
-table 50000 "Uni Courses"
+table 50000 "Uni Course Header"
 {
     DataClassification = ToBeClassified;
 
@@ -8,6 +8,11 @@ table 50000 "Uni Courses"
         {
             DataClassification = ToBeClassified;
             Caption = 'Number';
+        }
+        field(2; Name; Text[50])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Name';
         }
     }
 

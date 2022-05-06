@@ -17,7 +17,7 @@
             "${UICop}",
             "${PerTenantExtensionCop}"
         ],
-        "CRS.ObjectNamePrefix": "Uni",
+        "CRS.ObjectNamePrefix": "Uni ",
         "CRS.RemovePrefixFromFilename": false,
         "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
         "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al"
