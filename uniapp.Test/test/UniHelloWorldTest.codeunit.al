@@ -1,4 +1,4 @@
-﻿codeunit 80000 "HelloWorld Test"
+﻿codeunit 80000 "UniHelloWorld Test"
 {
     Subtype = Test;
 
