@@ -1,32 +1,31 @@
 ﻿{
-    "id":  "c914f5db-328e-4d9d-9bb6-3e8d15e17448",
-    "name":  "uniapp",
-    "publisher":  "SAllhusen",
-    "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
-    "dependencies":  [
+    "id": "c914f5db-328e-4d9d-9bb6-3e8d15e17448",
+    "name": "uniapp",
+    "publisher": "SAllhusen",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
 
-                     ],
-    "screenshots":  [
+    ],
+    "screenshots": [
 
-                    ],
-    "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
-    "idRanges":  [
-                     {
-                         "from":  50000,
-                         "to":  50099
-                     }
-                 ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+    ],
+    "platform": "1.0.0.0",
+    "application": "19.0.0.0",
+    "idRanges": [{
+        "from": 50000,
+        "to": 50099
+    }],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "9.0"
 }
