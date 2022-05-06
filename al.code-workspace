@@ -1,25 +1,25 @@
-﻿{
-    "folders":  [
-                    {
-                        "path":  ".AL-Go"
-                    },
-                    {
-                        "path":  "uniapp"
-                    },
-                    {
-                        "path":  "uniapp.Test"
-                    }
-                ],
-    "settings":  {
-					"al.enableCodeAnalysis": true,
-					"al.codeAnalyzers": [
-						"${CodeCop}",
-						"${UICop}",
-						"${PerTenantExtensionCop}"
-					],
-					"CRS.ObjectNameSuffix": "Uni",
-					"CRS.RemoveSuffixFromFilename": false,
-					"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
-					"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al"
-                 }
+{
+    "folders": [
+        {
+            "path": ".AL-Go"
+        },
+        {
+            "path": "uniapp"
+        },
+        {
+            "path": "uniapp.Test"
+        }
+    ],
+    "settings": {
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${UICop}",
+            "${PerTenantExtensionCop}"
+        ],
+        "CRS.ObjectNamePrefix": "Uni",
+        "CRS.RemovePrefixFromFilename": false,
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al"
+    }
 }
