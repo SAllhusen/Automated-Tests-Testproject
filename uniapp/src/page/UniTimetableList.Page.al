@@ -62,6 +62,7 @@ page 50007 "Uni Timetable List"
                 {
                     ToolTip = 'Specifies the value of the Sunday field.';
                     ApplicationArea = All;
+                    Visible = false;
                 }
             }
         }

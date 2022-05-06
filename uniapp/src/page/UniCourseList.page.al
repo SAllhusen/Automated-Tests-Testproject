@@ -5,6 +5,7 @@ page 50002 "Uni Course List"
     PageType = List;
     SourceTable = "Uni Course Header";
     UsageCategory = Lists;
+    CardPageId = "Uni Course Card";
 
     layout
     {
