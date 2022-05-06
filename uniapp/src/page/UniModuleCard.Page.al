@@ -20,7 +20,7 @@ page 50004 "Uni Module Card"
                     ToolTip = 'Specifies the value of the Name field.';
                     ApplicationArea = All;
                 }
-                field(Beschreibung; Rec.Beschreibung)
+                field(Description; Rec.Description)
                 {
                     ToolTip = 'Specifies the value of the Beschreibung field.';
                     ApplicationArea = All;

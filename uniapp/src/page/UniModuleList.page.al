@@ -5,6 +5,7 @@ page 50005 "Uni Module List"
     PageType = List;
     SourceTable = "Uni Module";
     UsageCategory = Lists;
+    CardPageId = "Uni Module Card";
 
     layout
     {
@@ -22,7 +23,7 @@ page 50005 "Uni Module List"
                     ToolTip = 'Specifies the value of the Name field.';
                     ApplicationArea = All;
                 }
-                field(Beschreibung; Rec.Beschreibung)
+                field(Description; Rec.Description)
                 {
                     ToolTip = 'Specifies the value of the Beschreibung field.';
                     ApplicationArea = All;

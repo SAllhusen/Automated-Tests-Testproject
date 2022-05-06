@@ -15,9 +15,9 @@ table 50004 "Uni Module"
             Caption = 'Name';
             DataClassification = ToBeClassified;
         }
-        field(3; Beschreibung; Text[250])
+        field(3; Description; Text[250])
         {
-            Caption = 'Beschreibung';
+            Caption = 'Description';
             DataClassification = ToBeClassified;
         }
         field(4; ECTS; Integer)
