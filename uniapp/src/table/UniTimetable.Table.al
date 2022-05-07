@@ -23,50 +23,50 @@ table 50006 "Uni Timetable"
         field(30; Monday; Code[20])
         {
             Caption = 'Monday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
 
             DataClassification = ToBeClassified;
         }
         field(40; Tuesday; Code[20])
         {
             Caption = 'Tuesday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
         field(50; Wednesday; Code[20])
         {
             Caption = 'Wednesday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
         field(60; Thursday; Code[20])
         {
             Caption = 'Thursday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
         field(70; Friday; Code[20])
         {
             Caption = 'Friday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
         field(80; Saturday; Code[20])
         {
             Caption = 'Saturday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
         field(90; Sunday; Code[20])
         {
             Caption = 'Sunday';
-            TableRelation = "Uni Course Header".Number;
+            TableRelation = "Uni Module".Code;
             DataClassification = ToBeClassified;
         }
     }
     keys
     {
-        key(PK; CourseNumber)
+        key(PK; CourseNumber, "Start Time", "End Time")
         {
             Clustered = true;
         }
