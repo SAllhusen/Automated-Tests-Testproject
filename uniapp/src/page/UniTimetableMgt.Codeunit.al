@@ -2,11 +2,6 @@ codeunit 50000 "Uni Timetable Mgt."
 {
     TableNo = "Uni Timetable";
 
-    trigger OnRun()
-    begin
-
-    end;
-
     procedure FillTimetable(UniCourseHeader: Record "Uni Course Header")
     var
         UniTimetable: Record "Uni Timetable";
@@ -39,7 +34,6 @@ codeunit 50000 "Uni Timetable Mgt."
         UniCourseLine: Record "Uni Course Line";
         LineNo: Integer;
     begin
-
         UniTimetable.CourseNumber := UniCourseHeader.Number;
         UniTimetable."Start Time" := StartTime;
         UniTimetable."End Time" := EndTime;
@@ -66,6 +60,5 @@ codeunit 50000 "Uni Timetable Mgt."
             UniTimetable.Friday := UniCourseLine.ModuleCode;
 
         UniTimetable.Modify();
-
     end;
 }
