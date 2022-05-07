@@ -27,6 +27,11 @@ page 50003 "Uni Course Line Subpage"
                     ToolTip = 'Specifies the value of the ModuleCode field.';
                     ApplicationArea = All;
                 }
+                field(ModuleName; Rec.ModuleName)
+                {
+                    ToolTip = 'Specifies the value of the ModuleName field.';
+                    ApplicationArea = All;
+                }
             }
         }
     }
