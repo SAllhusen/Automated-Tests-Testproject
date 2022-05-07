@@ -2,8 +2,8 @@
 *.flf
 TestResults.xml
 BuildOutput.txt
-rad.json
 .output
 .alcache/
 .altemplates/
 cache_*
+.vscode/
