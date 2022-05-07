@@ -9,7 +9,7 @@ table 50001 "Uni Course Line"
             DataClassification = ToBeClassified;
             Caption = 'CourseNumber';
         }
-        field(2; LineNumber; Text[50])
+        field(2; LineNumber; Integer)
         {
             DataClassification = ToBeClassified;
             Caption = 'LineNumber';
