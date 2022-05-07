@@ -7,17 +7,23 @@ table 50001 "Uni Course Line"
         field(1; CourseNumber; Code[20])
         {
             DataClassification = ToBeClassified;
-            Caption = 'CourseNumber';
+            Caption = 'Course Number';
         }
         field(2; LineNumber; Integer)
         {
             DataClassification = ToBeClassified;
-            Caption = 'LineNumber';
+            Caption = 'Line Number';
         }
         field(3; ModuleCode; Code[20])
         {
             DataClassification = ToBeClassified;
-            Caption = 'ModuleCode';
+            Caption = 'Module Code';
+            TableRelation = "Uni Module";
+        }
+        field(4; ModuleName; Text[30])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Module Name';
             TableRelation = "Uni Module";
         }
     }
